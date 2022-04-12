@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Welcome To Se|Grid | About  </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38f905764a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Pro.css">
+
+   </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="Home.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="upgrade.html">Upgrade</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Se|Grid Awesome Grid</h1>
+        <p>The awesome grid The awesome grid The awesome grid Bla bla bla <br>The awesome grid The awesome grid The awesome grid  Bla bla <br> The awesome grid The awesome grid The awesome grid.</p>
+        <a href="#" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.display = "none"
+      }
+
+    </script>
+  </body>
+</html>
